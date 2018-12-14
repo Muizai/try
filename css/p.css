@@ -18,7 +18,6 @@
   max-height: 100%; }
 
 .sec {
-  flex: 2.5;
   background: #f1f5fe; }
 
 .introduction {
@@ -32,7 +31,6 @@
 .itemBox {
   padding: 0 10vw;
   box-sizing: border-box;
-  flex: 3.75;
   background: #fff; }
 
 .itemBox > div {
@@ -51,5 +49,8 @@
   width: 0.8rem;
   height: 0.8rem;
   color: #fff; }
+
+.container {
+  overflow-y: auto; }
 
 /*# sourceMappingURL=p.css.map */
