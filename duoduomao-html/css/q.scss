@@ -1,0 +1,30 @@
+.qduo {
+    height: 100vh;
+    background: url("./../img/green.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .container {
+    width: 96%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 3.5rem;
+    position: fixed;
+    bottom: 0.3rem;
+    left: 2%;
+  }
+  .item {
+    margin: 4% 0;
+    // flex: 1;
+    width: 24%;
+    height: 32%;
+    border-right: 1px solid #fff;
+    color: #fff;
+  }
+  .noborder {
+    border: none;
+  }
+  .icon{
+      height: 0.6rem;
+      width: 0.6rem;
+      margin-bottom: 0.1rem;
+  }

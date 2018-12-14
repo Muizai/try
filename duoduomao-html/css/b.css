@@ -1,0 +1,125 @@
+.bduo {
+  height: 100vh;
+  background: url("./../img/maopao.jpg") no-repeat;
+  background-size: 100% 100%; }
+
+.logo {
+  font-size: 0.45rem;
+  line-height: 1rem; }
+
+.phone {
+  font-size: 0.24rem; }
+  .phone p {
+    text-align: right;
+    -webkit-transform: scale(0.8); }
+
+.container {
+  width: 50vw;
+  height: 50vw;
+  margin: 50% auto;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #3c3737; }
+  .container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    z-index: 555;
+    position: relative;
+    top: 0;
+    left: 0; }
+  .container .intro {
+    background: #488f42;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    top: -1.7rem;
+    left: 1.7rem;
+    z-index: 2;
+    box-shadow: 3px 3px 10px #3c3737; }
+    .container .intro div {
+      height: 1.5rem;
+      width: 1.5rem;
+      border-radius: 50%;
+      background: #e5e5e5;
+      box-shadow: #3c3737 -1px 3px 5px; }
+  .container .photo {
+    background: #efd929;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    top: -0.2rem;
+    left: 3.3rem;
+    z-index: 2;
+    box-shadow: 3px 3px 10px #3c3737; }
+    .container .photo div {
+      height: 1.2rem;
+      width: 1.2rem;
+      border-radius: 50%;
+      background: #e5e5e5;
+      box-shadow: #3c3737 -1px 3px 5px;
+      top: -0.2rem; }
+    .container .photo p {
+      font-size: 0.12rem; }
+  .container .security {
+    top: 2.8rem !important;
+    left: -1.8rem !important;
+    width: 2.2rem !important;
+    height: 2.2rem !important; }
+  .container .zhaoshang {
+    background: #f3f3f3;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    top: 1.3rem;
+    left: 3.5rem;
+    z-index: 2;
+    box-shadow: 3px 3px 10px #3c3737; }
+    .container .zhaoshang p {
+      font-size: 0.12rem; }
+    .container .zhaoshang .icon {
+      width: 0.7rem;
+      height: 0.7rem; }
+  .container .team {
+    top: 3.1rem !important;
+    background: #eab548;
+    left: 2.6rem; }
+  .container .action {
+    width: 1.6rem;
+    height: 1.6rem;
+    top: 4.2rem;
+    left: 0.8rem;
+    background: #a4324b; }
+    .container .action div {
+      width: 1.4rem;
+      height: 1.4rem; }
+  .container .wechat {
+    top: 5.1rem !important;
+    left: -0.8rem;
+    background: #4cc731; }
+  .container .company {
+    top: -1rem;
+    background: #91499a;
+    left: -1.5rem; }
+  .container .pink {
+    background: #c9546c;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    top: 1rem;
+    left: -0.5rem; }
+  .container .paopao {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #f3f3f3;
+    box-shadow: -2px 1px 5px #8e8585;
+    border-radius: 50%;
+    top: 0.7rem;
+    left: -0.7rem; }
+
+.icon {
+  width: 0.5rem;
+  height: 0.5rem;
+  color: #030001 !important; }
+
+/*# sourceMappingURL=b.css.map */

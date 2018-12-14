@@ -1,0 +1,59 @@
+.gduo {
+    height: 100vh;
+    background: url("./../img/lanxi.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .item{
+      background-color:#454545;
+      padding: 0.1rem;
+      border-radius: 0.1rem
+  }
+  .footer{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 0.2rem;
+      box-sizing: border-box;
+      color: #ecc253;
+      .icon{
+          width: 0.4rem;
+          height: 0.4rem;
+          margin-right: 0.1rem;
+      }
+  }
+  .header{
+  
+  }
+  .yellow{
+      margin: 0 auto;
+      width: 90%;
+      height: 1.5rem;
+      background-color: #ecc253;
+      border-bottom-right-radius: 25%;
+      border-bottom-left-radius: 25%;
+      z-index: 222;
+      left: 5%;
+      top: 0;
+  
+  
+  }
+  .mdz{
+      height: 1rem;
+      width: 86%;
+      left: 7%;
+      top: 1.2rem;
+      background: blanchedalmond;
+      border-bottom-left-radius: 0.2rem;
+      border-bottom-right-radius: 0.2rem;
+      color: #000;
+      .p2{
+          -webkit-transform: scale(0.5);
+       font-size: 0.28rem;
+       white-space: nowrap;
+      }
+      
+  
+  }
+  .mdz>div{
+      width: 20%;
+  }

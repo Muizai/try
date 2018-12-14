@@ -1,0 +1,19 @@
+.container {
+    font-size: 0.28rem;
+  }
+  .container > div {
+    width: 25vw;
+    height: 25vw;
+  }
+  .icon {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+  .container .center {
+    width: 50vw;
+    height: 50vw;
+    background-color: skyblue;
+    border-radius: 50%;
+    top: 25vw;
+    left: 25vw;
+  }

@@ -1,0 +1,67 @@
+.nduo {
+  height: 100vh;
+  background: url("./../img/xiangbodun.jpg") no-repeat;
+  background-size: 100% 100%; }
+
+.footer {
+  width: 100%;
+  height: 25vw;
+  background-color: rgba(255, 255, 255, 0.3);
+  bottom: 0;
+  font-size: 0.12rem;
+  color: #fff; }
+  .footer .text {
+    margin-top: 0.1rem; }
+
+.icon {
+  width: 0.6rem;
+  height: 0.6rem;
+  color: #fff; }
+
+.item {
+  width: 25vw;
+  height: 25vw; }
+
+.item-centent {
+  width: 16vw;
+  height: 16vw;
+  border: 1px solid rgba(255, 255, 255, 0.3); }
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+  background: url("./../img/qaqalogo.png") no-repeat;
+  background-size: 100% 100%; }
+
+.containerBox {
+  overflow-y: auto; }
+
+.imgWrap {
+  width: 80vw;
+  height: 110vw;
+  border: 1px solid skyblue;
+  margin: 5vw auto;
+  border-radius: 0.3rem;
+  background: #fff;
+  z-index: 999; }
+  .imgWrap img {
+    max-width: 99.9%;
+    max-height: 99.9%;
+    border-radius: 0.3rem;
+    margin: 0 auto; }
+
+.sec {
+  width: 73vw;
+  height: 73vw;
+  border-radius: 0.3rem;
+  background-color: rgba(255, 255, 255, 0.8); }
+
+.third {
+  width: 67vw;
+  height: 67vw;
+  border-radius: 0.3rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  top: -0.3rem; }
+
+/*# sourceMappingURL=n.css.map */

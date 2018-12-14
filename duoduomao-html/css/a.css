@@ -1,0 +1,35 @@
+.aduo {
+  font-size: 0.28rem; }
+
+.header {
+  height: 2rem; }
+  .header img {
+    width: 4.43rem;
+    height: 0.67rem; }
+
+.icon {
+  color: red; }
+
+.green {
+  background-color: cyan; }
+
+.container div {
+  width: 33.333vw;
+  height: 33.333vw; }
+  .container div img {
+    max-width: 33.333vw;
+    max-height: 33.333vw; }
+
+.icon {
+  width: 1rem;
+  height: 1rem; }
+
+.aaa {
+  padding: 0.5rem;
+  box-sizing: border-box; }
+
+  .green{
+    background: cyan;
+  }
+
+/*# sourceMappingURL=haha.css.map */

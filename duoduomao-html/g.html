@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://at.alicdn.com/t/font_928839_2nkbioyl6y3.js"></script>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/g.css">
+</head>
+
+<body>
+        <div class="gduo">
+                <div class="header pr">
+                    <div class="yellow pa"></div>
+                    <div class="mdz pa df fww ac afe"  id="mdz">
+                        <div class="df fdc jfs ac jc">
+                            <p>买家秀</p>
+                            <p class="p2">BUYERS SHOW</p>
+                        </div>
+                        <div class=" df fdc jfs ac jc">
+                            <p>产品</p>
+                            <p class="p2">PRODUTC</p>
+                        </div>
+                        <div class="df fdc jfs ac jc">
+                            <p>视频</p>
+                            <p class="p2">VIDEO</p>
+                        </div>
+                        <div class="df fdc jfs ac jc">
+                            <p>防伪</p>
+                            <p class="p2">PRODUCT</p>
+                        </div>
+                        <div class="df fdc jfs ac jc">
+                            <p>授权</p>
+                            <p class="p2">AUTHOR</p>
+                        </div>
+                    </div>
+          
+                    
+                </div>
+              <div class="df jsb footer">
+                <div  class="item df ac jc">
+                  <svg
+                    class="icon"
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#icon-weixin"></use>
+                  </svg>
+                  <div>代理申请</div>
+                </div>
+                <div class="item df ac jc">
+                  <svg
+                    class="icon"
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#icon-phone"></use>
+                  </svg>
+                  <div>0755-23319741</div>
+                </div>
+                <div class="item df ac jc">
+                  <svg
+                    class="icon"
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#icon-liuliangyunpingtaitubiao03"></use>
+                  </svg>
+                  <div>代理登录</div>
+                </div>
+              </div>
+            </div>
+    <script type="text/javascript" src="./js/response.js"></script>
+    <script type="text/javascript" src="./js/utils.js"></script>
+    <script>
+      let mdz=document.getElementById("mdz");
+      let lists=utils.children(mdz,"div");
+      let items=utils.getElementsByClassName("item");
+      function listTouchstart(){
+        this.style.opacity=0.7;
+      }
+      function listTouchend(){
+        this.style.opacity=1;
+      }
+      lists.forEach(element=>{
+        element.addEventListener('touchstart',listTouchstart,false);
+        element.addEventListener('touchend',listTouchend,false);
+      })      
+      items.forEach(element=>{
+        element.addEventListener('touchstart',listTouchstart,false);
+        element.addEventListener('touchend',listTouchend,false);
+      })      
+    </script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.jduo{
+    height: 100vh;
+    background: url('./../img/skyblue.jpg') no-repeat center center;
+    background-size: cover;
+    font-size: 0.28rem;
+}
+.container{
+    padding:4rem 15vw;
+}
+.item{
+    width:30vw;
+    height:10vw;
+    background: #fff;
+    box-shadow: 3px 3px 5px #ccc;
+    // margin: 10vw 10vw 0 0;
+    margin-top: 0.5rem;
+}

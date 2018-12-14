@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://at.alicdn.com/t/font_928839_2nkbioyl6y3.js"></script>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/c.css">
+</head>
+
+<body>
+    <div class="cduo">
+        <div class="container df jsb">
+            <div class="df fdc ac jc item">
+                <div class="iconBox df ac jc">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-zhuye"></use>
+                    </svg>
+                </div>
+                <p>微网首页</p>
+            </div>
+            <div class="df fdc ac jc item">
+                <div class="iconBox df ac jc">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-53"></use>
+                    </svg>
+                </div>
+                <p>防伪查询</p>
+            </div>
+            <div class="df fdc ac jc item">
+                <div class="iconBox df ac jc">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weibiaoti-_huabanfuben"></use>
+                    </svg>
+                </div>
+                <p>管理员登录</p>
+            </div>
+            <div class="df fdc ac jc item">
+                <div class="iconBox df ac jc">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-liuliangyunpingtaitubiao03"></use>
+                    </svg>
+                </div>
+                <p>代理登录</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/response.js"></script>
+    <script type="text/javascript" src="./js/utils.js"></script>
+    <script>
+        var items=utils.getElementsByClassName("item");
+        console.log(items);
+        function itemTouchstart(){
+            this.style.opacity=0.7;
+        }
+        function itemTouchend(){
+            this.style.opacity=1;
+        }
+        items.forEach(element=>{
+            element.addEventListener("touchstart",itemTouchstart,false);
+            element.addEventListener("touchend",itemTouchend,false);
+        })
+    </script>
+
+</body>
+
+</html>

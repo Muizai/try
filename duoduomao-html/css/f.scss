@@ -1,0 +1,39 @@
+.fduo {
+    height: 100vh;
+  }
+  .footer {
+    height: 1rem;
+    background: #ded8dc;
+      color: #785e2b;
+      padding: 0.1rem 0;
+  
+  }
+  .footer div:first-child{
+      border-bottom: 1px dotted #785e2b;
+      line-height: 0.5rem;
+  }
+  .imgWrap{
+      width: 100%;
+      img{
+          max-width: 100%;
+          max-height: 100%;
+      }
+  }
+  .item{
+      width: 25vw;
+      height: 25vw;
+      p{
+          margin-top: 0.1rem;
+      }
+  }
+  .iconBox{
+      width: 12.5vw;
+      height: 12.5vw;
+      border-radius: 50%;
+      .icon{
+          width: 8vw;
+          height: 8vw;
+          color: #fff;
+      }
+      
+  }

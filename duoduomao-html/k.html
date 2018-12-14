@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://at.alicdn.com/t/font_928839_2nkbioyl6y3.js"></script>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/k.css">
+</head>
+
+<body>
+
+
+    <div class="df fdc kduo">
+        <div class=" f1 " style="overflow-y:auto">
+            <div style="width:100%">
+                <img style="max-height:100%;max-width:100%" src="./img/banner2.jpg" alt="">
+            </div>
+            <div class="pr container">
+                <div class="list1 df fc ac jsb" style="padding:0 10vw">
+                    <div class="item">
+                        <div class="arrowTop" style="border-bottom-color:#979086"></div>
+                        <div class="content" style="background-color:#979086">
+                            <div class="df fdc ac jc">
+                                <div>
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-security"></use>
+                                    </svg>
+                                </div>
+                                <p>防伪查询</p>
+                            </div>
+                        </div>
+                        <div class="arrowBottom" style="border-top-color:#979086"></div>
+                    </div>
+                    <div class="item">
+                        <div class="arrowTop" style="border-bottom-color:#41392e"></div>
+                        <div class="content" style="background-color:#41392e">
+                            <div class="df fdc ac jc">
+                                <div>
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-security"></use>
+                                    </svg>
+                                </div>
+                                <p>产品系列</p>
+                            </div>
+                        </div>
+                        <div class="arrowBottom" style="border-top-color:#41392e"></div>
+                    </div>
+                    <div class="item">
+                        <div class="arrowTop" style="border-bottom-color:#442522"></div>
+                        <div class="content" style="background-color:#442522">
+                            <div class="df fdc ac jc">
+                                <div>
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-security"></use>
+                                    </svg>
+                                </div>
+                                <p>新闻中心</p>
+                            </div>
+                        </div>
+                        <div class="arrowBottom" style="border-top-color:#442522"></div>
+                    </div>
+                </div>
+                <div class="pa" style="top:22vw;width:100%;">
+                    <div class="list1 df fc ac jsb" style="padding:0 23.5vw;">
+                        <div class="item">
+                            <div class="arrowTop" style="border-bottom-color:#4f6364"></div>
+                            <div class="content" style="background-color:#4f6364">
+                                <div class="df fdc ac jc">
+                                    <div>
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-originalimage"></use>
+                                        </svg>
+                                    </div>
+                                    <p>代理查询</p>
+                                </div>
+                            </div>
+                            <div class="arrowBottom" style="border-top-color:#4f6364"></div>
+                        </div>
+                        <div class="item">
+                            <div class="arrowTop" style="border-bottom-color:#96866c"></div>
+                            <div class="content" style="background-color:#96866c">
+                                <div class="df fdc ac jc">
+                                    <div>
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-ship"></use>
+                                        </svg>
+                                    </div>
+                                    <p>买家照片</p>
+                                </div>
+                            </div>
+                            <div class="arrowBottom" style="border-top-color:#96866c"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pa" style="top:44vw;width:100%">
+                        <div class="list1 df fc ac jsb list3">
+                            <div class="item">
+                                <div class="arrowTop" style="border-bottom-color:#455f6e"></div>
+                                <div class="content" style="background-color:#455f6e">
+                                    <div class="df fdc ac jc">
+                                        <div>
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-survey"></use>
+                                            </svg>
+                                        </div>
+                                        <p>代理申请</p>
+                                    </div>
+                                </div>
+                                <div class="arrowBottom" style="border-top-color:#455f6e"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+        </div>
+        <div class="footer df ac jc">
+            <div class="item">微信</div>
+            <div class="item">电话</div>
+            <div class="item">信息</div>
+        </div>
+    </div>
+
+    </div>
+    <script type="text/javascript" src="./js/response.js"></script>
+    <script type="text/javascript" src="./js/utils.js"></script>
+    <script>
+        let items = utils.getElementsByClassName('item');
+        function itemTouchstart() {
+            this.style.opacity = 0.7;
+        }
+        function itemTouchend() {
+            this.style.opacity = 1;
+        }
+        items.forEach(element => {
+            element.addEventListener('touchstart', itemTouchstart, false);
+            element.addEventListener('touchend', itemTouchend, false);
+        })
+        
+    </script>
+
+</body>
+
+
+</html>

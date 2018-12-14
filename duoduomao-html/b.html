@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://at.alicdn.com/t/font_928839_2nkbioyl6y3.js"></script>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/b.css">
+</head>
+
+<body>
+    <div class="bduo df fdc">
+        <div class="df fdc f1">
+            <p class="logo">duoduomao</p>
+            <div class="f1">
+                <div class="container pr" id="container">
+                    <img src="./img/at.jpg" alt="">
+                    <div class="pa intro df ac jc">
+                        <div class="df fdc ac jc light-item">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-ai-list"></use>
+                            </svg>
+                            <p>产品介绍</p>
+                        </div>
+                    </div>
+                    <div class="pa photo df ac jc pr">
+                        <div class="df fdc ac jc pa light-item">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-duosucai"></use>
+                            </svg>
+
+                        </div>
+                        <p class="pa" style="bottom:0.1rem">高清素材</p>
+                    </div>
+                    <div class="pa zhaoshang df fdc ac jc  pr light-item">
+                        <div>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-process"></use>
+                            </svg>
+                            <p>招商政策</p>
+                        </div>
+
+                    </div>
+                    <div class="pa intro team df ac jc">
+                        <div class="df fdc ac jc light-item">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-tuandui-tianchong"></use>
+                            </svg>
+                            <p>团队展示</p>
+                        </div>
+                    </div>
+                    <div class="pa intro action df ac jfs afs jc">
+                        <div class="df fdc ac jc light-item">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-iconfontdailishenfen"></use>
+                            </svg>
+                            <p>活动公告</p>
+                        </div>
+                    </div>
+                    <div class="pa intro company action df ac jfs afs jc">
+                        <div class="df fdc ac  jc light-item">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-zhuye"></use>
+                            </svg>
+                            <p>公司简介</p>
+                        </div>
+                    </div>
+                    <div class="pa intro wechat action df ac jfs afs jc">
+                        <div class="df fdc ac  jc light-item">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-ai-list"></use>
+                            </svg>
+                            <p>微信关注</p>
+                        </div>
+                    </div>
+                    <div class="pa security zhaoshang df fdc ac jc light-item  pr">
+                        <div>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-53"></use>
+                            </svg>
+                            <p>防伪查询</p>
+                        </div>
+
+                    </div>
+                    <div class="pink pa"></div>
+                    <div class="paopao pa"></div>
+                </div>
+
+            </div>
+            <div class="phone">
+                <p>加盟电话：400232585</p>
+                <p>访问官网：www.jiaoying.com</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/response.js"></script>
+    <script type="text/javascript" src="./js/utils.js"></script>
+    <script>
+        let container=document.getElementById('container');
+        let btns=utils.children(container,'div');
+        btns=utils.listToArray(btns);
+        function itemTouchstart(){
+            console.log("ok");
+            this.style.opacity=0.7;
+        };
+        function itemTouchend(){
+            console.log("hahah");
+            this.style.opacity=1;
+
+        }
+        btns.forEach(element => {
+            console.log(element);
+            element.addEventListener("touchstart",itemTouchstart,false);
+            element.addEventListener("touchend",itemTouchend,false)
+        });        
+        
+
+    </script>
+
+</body>
+
+</html>

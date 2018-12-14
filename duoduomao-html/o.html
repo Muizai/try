@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://at.alicdn.com/t/font_928839_2nkbioyl6y3.js"></script>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/o.css">
+</head>
+
+<body>
+    <div class="oduo df fdc">
+        <div class="imgWrap df ac jc">
+            <img src="./img/annalogo.png" alt="">
+        </div>
+        <div class="container df fww">
+            <div class="df ac jc item rb" >
+                <div style="width:1rem" class="df jfe">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-duosucai"></use>
+                    </svg>
+                </div>
+                <div class="df fdc f1 text">
+                    <div>产品视频</div>
+                    <div>Video product</div>
+                </div>
+            </div>
+            <div class="df ac jc item" >
+                <div style="width:1rem" class="df jfe">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-duosucai"></use>
+                    </svg>
+                </div>
+                <div class="df fdc f1 text">
+                    <div>官方网站</div>
+                    <div>Official website</div>
+                </div>
+            </div>
+            <div class="df ac jc item rb" >
+                <div style="width:1rem" class="df jfe">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-duosucai"></use>
+                    </svg>
+                </div>
+                <div class="df fdc f1 text">
+                    <div>产品信息</div>
+                    <div>Product information</div>
+                </div>
+            </div>
+            <div class="df ac jc item" >
+                <div style="width:1rem" class="df jfe">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-duosucai"></use>
+                    </svg>
+                </div>
+                <div class="df fdc f1 text">
+                    <div>质检报告</div>
+                    <div>QC report</div>
+                </div>
+            </div>
+            <div class="df ac jc item rb" >
+                <div style="width:1rem" class="df jfe">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-duosucai"></use>
+                    </svg>
+                </div>
+                <div class="df fdc f1 text">
+                    <div>代理查询</div>
+                    <div>Fake query</div>
+                </div>
+            </div>
+            <div class="df ac jc item" >
+                <div style="width:1rem" class="df jfe">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-duosucai"></use>
+                    </svg>
+                </div>
+                <div class="df fdc f1 text">
+                    <div>关注微信</div>
+                    <div>Follow WeChat</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="./js/response.js"></script>
+    <script type="text/javascript" src="./js/utils.js"></script>
+    <script>
+        let items = utils.getElementsByClassName('item');
+        function itemTouchstart() {
+            this.style.opacity = 0.7;
+        }
+        function itemTouchend() {
+            this.style.opacity = 1;
+        }
+        items.forEach(element => {
+            element.addEventListener('touchstart', itemTouchstart, false);
+            element.addEventListener('touchend', itemTouchend, false);
+        })
+        
+    </script>
+
+
+</body>
+
+
+</html>

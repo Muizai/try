@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://at.alicdn.com/t/font_928839_2nkbioyl6y3.js"></script>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/l.css">
+</head>
+
+<body>
+
+    <div class="kduo df fdc">
+        <div class="f1 pr">
+            <div class=" pa t0 df jc ac" style="width:100vw;height:100vw;">
+                <div class="circle"></div>
+            </div>
+            <div class="container df fww" id="container">
+                <div style="width:20vw;height:2.5rem;">
+                    <div>
+                        <p></p>
+
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;"  class="item">
+                    <div>
+                        <p>质检报告</p>
+                        <div class="iconBox df ac jc">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-duosucai"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="width:20vw;height:2.5rem;">
+                    <div>
+                        <p></p>
+
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;"  class="item">
+                    <div>
+                        <p>买家照片</p>
+                        <div class="iconBox df ac jc">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-duosucai"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;">
+                    <div>
+                        <p></p>
+
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;"  class="item">
+                    <div>
+                        <p>产品系列</p>
+                        <div class="iconBox df ac jc">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-duosucai"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;">
+                    <div>
+                        <p></p>
+
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;">
+                    <div>
+                        <p></p>
+
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;">
+                    <div>
+                        <p></p>
+
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;" class="item">
+                    <div>
+                        <p>代理查询</p>
+                        <div class="iconBox df ac jc">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-duosucai"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;">
+                    <div>
+                        <p></p>
+
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;"  class="item">
+                    <div>
+                        <p>产品视频</p>
+                        <div class="iconBox df ac jc">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-duosucai"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;">
+                    <div>
+                        <p></p>
+
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;" class="item">
+                    <div>
+                        <p>微信关注</p>
+                        <div class="iconBox df ac jc">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-duosucai"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div style="width:20vw;height:2.5rem;">
+                    <div>
+                        <p></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="center df ac jc pa">
+                <div>
+                    <img src="http://img5.imgtn.bdimg.com/it/u=3578277146,983336851&fm=26&gp=0.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <p class="num">加盟电话：851263256</p>
+
+
+        <div class="footer df">
+            <div class="f1 df ac jc item" style="border-right:2px solid #fff">防伪查询</div>
+            <div class="f1 df ac jc item">代理后台</div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="./js/response.js"></script>
+    <script type="text/javascript" src="./js/utils.js"></script>
+    <script>
+        let items = utils.getElementsByClassName('item');
+        // let icons=utils.getElementsByClassName('iconBox');
+        // console.log(icons);
+        console.log(items);
+        function itemTouchstart() {
+            this.style.opacity = 0.7;
+        }
+        function itemTouchend() {
+            this.style.opacity = 1;
+        }
+        function itemClick(){
+            console.log("可以点击");
+        }
+        items.forEach(element => {
+            console.log(element);
+            element.addEventListener('touchstart', itemTouchstart, false);
+            element.addEventListener('touchend', itemTouchend, false);
+            element.addEventListener("click",itemClick,false);
+        })
+        // icons.forEach(element => {
+        //     element.addEventListener('touchstart', itemTouchstart, false);
+        //     element.addEventListener('touchend', itemTouchend, false);
+        // })
+
+    </script>
+
+
+
+</body>
+
+
+</html>

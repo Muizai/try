@@ -1,0 +1,32 @@
+.lduo {
+  height: 100vh;
+  background: url("./../img/balloon.jpg") no-repeat center center;
+  background-size: cover; }
+
+.footer {
+  height: 1rem;
+  background: #dc648a; }
+  .footer div {
+    width: 33.333vw; }
+  .footer .icon {
+    width: 8vw;
+    height: 8vw;
+    color: #fff; }
+
+.container {
+  padding: 0 5vw;
+  bottom: 1rem; }
+  .container .icon {
+    width: 8vw;
+    height: 8vw;
+    color: #fff; }
+
+.item {
+  margin-top: 3vw;
+  width: 42.5vw;
+  height: 15vw;
+  border-radius: 5vw; }
+  .item p {
+    padding-left: 3vw; }
+
+/*# sourceMappingURL=i.css.map */

@@ -1,0 +1,126 @@
+ .fs12 {
+   font-size: .12rem
+ }
+
+ .fs14 {
+   font-size: .14rem
+ }
+
+ * {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+ }
+
+ html, body {
+   height: 100%;
+   width: 100%;
+ }
+
+ body {
+   font-size: 0.28rem;
+ }
+
+ li {
+   list-style: none;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+ /* 这种可以先定义好公共样式， 比如字体大小  颜色等   以及布局的常用样式 */
+
+ .df {
+   display: flex;
+ }
+
+ .fdc {
+   flex-direction: column
+ }
+
+ .f1 {
+   flex: 1
+ }
+
+ .jc {
+   justify-content: center
+ }
+
+ .ac {
+   align-items: center
+ }
+
+ .afs {
+   align-items: flex-start
+ }
+
+ .afe {
+   align-items: flex-end
+ }
+
+ .jsb {
+   justify-content: space-between
+ }
+
+ .jfe {
+   justify-content: flex-end
+ }
+
+ .jfs {
+   justify-content: flex-start;
+ }
+
+ .fww {
+   flex-wrap: wrap
+ }
+
+ .oya {
+   overflow-y: auto
+ }
+
+ .pr {
+   position: relative;
+ }
+
+ .pa {
+   position: absolute
+ }
+
+ .l0 {
+   left: 0;
+ }
+
+ .r0 {
+   right: 0;
+ }
+
+ .t0 {
+   top: 0;
+ }
+
+ .b0 {
+   bottom: 0;
+ }
+
+ .icon {
+   width: 1em;
+   height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+ }
+
+ .oh {
+   overflow: hidden;
+ }
+
+ .ellipsis2 {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   /*! autoprefixer: off */
+   -webkit-box-orient: vertical;
+   /*！ autoprefixer: on */
+   -webkit-line-clamp: 2;
+ }
