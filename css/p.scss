@@ -34,13 +34,13 @@
     }
   }
   .itemBox {
-    padding: 0 10vw;
     box-sizing: border-box;
     background: #fff;
   }
   .itemBox > div {
     width: 33.333333%;
     height: 50%;
+    padding: 0.1rem 0;
     .text{
         margin-top: 0.1rem;
     }
